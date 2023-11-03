@@ -19,16 +19,19 @@
 > <h6><em>This is a work in progress and stuff still needs to be added! 🚧</em></h6>
 ---
 > [!IMPORTANT]
-> <h3>TODO: </h3>
+> <h4>TODO: </h4>
 
-    [X] Description to the GitHub Page
-    [ ] Pointers to where everything is located
-    [ ] How git works
-    [ ] Structure of Repos
+ - [X] Description to the GitHub Page #1
+ - [ ] Pointers to where everything is located
+ - [ ] How git works
+ - [ ] Structure of Repos
 
-> <h3>Description:</h3>
+<h3>Description:</h3>
 
-          test test
+    This is the home for code that we write for projects. 
+    The code does not have to be oraganised according to a project. 
+    You can create a repo and store it for each use case. 
+    We can pull all the code together based on whats required for a project and it can be update accordigly!
   
 
 
