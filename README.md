@@ -1,4 +1,4 @@
-<head {font-family: arial black, sans-serif;}>
+<head {font-family: arial black, serif;}>
   <h1>
     <b>
     Welcome to the Anchor Environmental GitHub! ⚓
@@ -6,6 +6,7 @@
   </h1>
 </head> 
 
+> [!NOTE]
 > <h4><em>This is still a work in progress and stuff still needs to be added! ✍️</em></h4> 
 
 
@@ -18,5 +19,11 @@
 
 ---
 
-
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
