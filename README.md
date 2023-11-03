@@ -1,5 +1,5 @@
 <body>
-  <p {font-family: arial black, serif;}>
+  <p>
   <h1>
     <b>
     Welcome to the Anchor Environmental GitHub! ⚓
@@ -9,14 +9,17 @@
 
   > [!NOTE]
   > <h4><em>This is a work in progress and stuff still needs to be added! 🚧</em></h4>
+
+  <p>
+    testestest
+  </p>
   
   > [!IMPORTANT]
-  > <h2>TODO</h2>
-  - [ ] test
-  - [ ] test
-  - [ ] test
-  - [ ] test
-  - [ ] test
+  > <h2>TODO: </h2>
+  - [X] Description to the GitHub Page
+  - [ ] Pointers to where everything is located
+  - [ ] How git works
+  - [ ] Structure of Repos
   
   ---
   
