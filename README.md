@@ -1,4 +1,4 @@
-[![test](./Anchorlogo)](https://anchorenvironmental.co.za/)
+[![test](./Anchorlogo.svg)](https://anchorenvironmental.co.za/)
 
 <body>
   <p>
