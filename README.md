@@ -21,10 +21,10 @@
 > [!IMPORTANT]
 > <h4>TODO: </h4>
 
- - [ ] https://github.com/Anchor-Environmental/.github/issues/1
- - [ ] Pointers to where everything is located
- - [ ] How git works
- - [ ] Structure of Repos
+ - [ ] Description https://github.com/Anchor-Environmental/.github/issues/1
+ - [ ] Directions https://github.com/Anchor-Environmental/.github/issues/2
+ - [ ] Source control explanation
+ - [ ] Structure of Repos 
 
 <h3>Description:</h3>
 
