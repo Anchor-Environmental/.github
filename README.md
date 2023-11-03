@@ -21,7 +21,7 @@
 > [!IMPORTANT]
 > <h4>TODO: </h4>
 
- - [X] Description to the GitHub Page #1
+ - [ ] #1
  - [ ] Pointers to where everything is located
  - [ ] How git works
  - [ ] Structure of Repos
