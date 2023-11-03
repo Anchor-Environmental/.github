@@ -1,4 +1,4 @@
-[![test](https://img.shields.io/pypi/v/geopandas.svg)](https://anchorenvironmental.co.za/)
+[![test](./)](https://anchorenvironmental.co.za/)
 
 <body>
   <p>
