@@ -37,7 +37,7 @@
 
 ```mermaid
 
-graph LR
+graph TD
   repos-->delft
   delft-->file_processing
   delft-->projection-mapping
