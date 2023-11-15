@@ -25,7 +25,7 @@
  - [ ] Directions https://github.com/Anchor-Environmental/.github/issues/2
  - [ ] Source control explanation
  - [ ] Structure of Repos
- - [ ] 
+       
 <h3>Description:</h3>
 
     This is the home for code that we write for projects. 
@@ -38,8 +38,10 @@
 ```mermaid
 
 graph TD
-  A-->B
-  B-->C
+  repos-->delft
+  delft-->file_processing
+  delft-->projection-mapping
+  delft-->delft-file-conversions
 
 ```
   
