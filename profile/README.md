@@ -24,16 +24,29 @@
  - [ ] Description https://github.com/Anchor-Environmental/.github/issues/1
  - [ ] Directions https://github.com/Anchor-Environmental/.github/issues/2
  - [ ] Source control explanation
- - [ ] Structure of Repos 
-
+ - [ ] Structure of Repos
+       
 <h3>Description:</h3>
 
     This is the home for code that we write for projects. 
     The code does not have to be oraganised according to a project. 
     You can create a repo and store it for each use case. 
-    We can pull all the code together based on what is required for a project and it can be updated accordingly!
+    We can pull all the code together based on whats required for a project and it can be updated accordigly!
   
   ---
+
+```mermaid
+
+graph TD
+  A[repos]-->B[delft]
+  B[delft]-->C[file-processing]
+  B-->D[projection-mapping]
+  B-->E[delft-file-conversions]
+  A-->F[general]
+  F-->G[visualisations]
+  F-->D[projection-mapping]
+
+```
   
   <p align="center">
     <img width="15%" src="https://github.com/Anchor-Environmental/.github/assets/149476021/9979c3ac-7c9d-4c6e-87a5-bf9a1d4799a6" alt="Anchor time pug dancing">
