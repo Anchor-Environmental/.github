@@ -39,7 +39,7 @@
 
 graph TD
   repos-->delft
-  delft-->file_processing
+  delft[tests]-->file_processing
   delft-->projection-mapping
   delft-->delft-file-conversions
   repos-->general
