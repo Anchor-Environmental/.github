@@ -38,13 +38,13 @@
 ```mermaid
 
 graph TD
-  repos-->delft
-  delft[tests]-->file_processing
-  delft-->projection-mapping
-  delft-->delft-file-conversions
-  repos-->general
-  general-->visualisations
-  general-->projection-mapping
+  A[repos]-->B[delft]
+  B[delft]-->C[file_processing]
+  B-->D[projection-mapping]
+  B-->E[delft-file-conversions]
+  A-->F[general]
+  F-->G[visualisations]
+  F-->D[projection-mapping]
 
 ```
   
