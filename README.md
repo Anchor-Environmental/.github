@@ -37,11 +37,14 @@
 
 ```mermaid
 
-graph TD
+graph LR
   repos-->delft
   delft-->file_processing
   delft-->projection-mapping
   delft-->delft-file-conversions
+  repos-->general
+  general-->visualisations
+  general-->projection-mapping
 
 ```
   
