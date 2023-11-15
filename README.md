@@ -39,7 +39,7 @@
 
 graph TD
   A[repos]-->B[delft]
-  B[delft]-->C[file_processing]
+  B[delft]-->C[file-processing]
   B-->D[projection-mapping]
   B-->E[delft-file-conversions]
   A-->F[general]
