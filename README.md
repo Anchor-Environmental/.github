@@ -31,7 +31,7 @@
     This is the home for code that we write for projects. 
     The code does not have to be oraganised according to a project. 
     You can create a repo and store it for each use case. 
-    We can pull all the code together based on whats required for a project and it can be update accordigly!
+    We can pull all the code together based on whats required for a project and it can be updated accordigly!
   
   ---
   
