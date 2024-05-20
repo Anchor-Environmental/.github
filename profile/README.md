@@ -26,10 +26,10 @@
     We can pull all the code together based on whats required for a project and it can be updated accordigly!
 
 ### Usage/Guide 🦮:
-    Follow the links to the repective repo
-    Find the copy https link to the repo
-    Open a terminal/shell at a local directory and paste the following command
-    git clone
+    1. Follow the links to the repective repo
+    2. Click on the <> Code button and copy the https url
+    3. Open a terminal/shell at your local directory and paste the following command with your link:
+        git clone "paste link here"
 ---
 
 ```mermaid
@@ -44,11 +44,6 @@ graph TD
   F-->D[projection-mapping]
 
 ```
-  
-  <p align="center">
-    <img width="15%" src="https://github.com/Anchor-Environmental/.github/assets/149476021/9979c3ac-7c9d-4c6e-87a5-bf9a1d4799a6" alt="Anchor time pug dancing">
-  </p>
-
   ---
 
 
