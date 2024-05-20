@@ -15,10 +15,7 @@
 </body>
 
 ---
-  
-> [!NOTE]
-> <h6><em>This is a work in progress and stuff still needs to be added! 🚧</em></h6>
----
+
 ### Description ✍️:
     This is the home for code that we write for projects. The code does
     not have to be oraganised according to a project. You can create a
