@@ -40,10 +40,10 @@ git clone "paste link here"
 graph TD
   A[repos]-->B[delft]
   B[delft]-->C[file-processing]
-  B-->D[projection-mapping]
+  B-->J[mercator-processing]
   B-->E[delft-file-conversions]
   B-->H[file-processing]
-  B-->J[mercator-processing]
+  B-->D[projection-mapping]
   A-->F[general]
   F-->G[visualisations]
   F-->D[projection-mapping]
