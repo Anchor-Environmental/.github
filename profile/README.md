@@ -30,7 +30,7 @@
     2. Click on the <> Code button and copy the https url
     3. Open a terminal/shell at your local directory and paste the following command with your link:
 
-```
+```Shell
 git clone "paste link here"
 ```
 ---
