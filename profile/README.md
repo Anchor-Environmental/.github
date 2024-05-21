@@ -46,12 +46,12 @@ git clone "paste link here"
       'tertiaryColor': '#8495a6'
     }}}%%
 flowchart LR
-  A(repos fa:fa-solid fa-list-ul):::layer0-->B(delft):::layer1
+  A(repos 📃):::layer0-->B(delft):::layer1
   B(delft)-->C(file-processing):::layer2
   B-->J(mercator-processing):::layer2
   B-->E(delft-file-conversions):::layer2
   B-->D(projection-mapping):::layer2
-  A(repos)-->F(general):::layer1
+  A(repos 📃)-->F(general):::layer1
   F-->G(visualisations):::layer2
   F-->D(projection-mapping):::layer2
   F-->I(GUI-Base):::layer2
