@@ -2,7 +2,10 @@
   <a href="https://anchorenvironmental.co.za/">
     <img width="25%" src="./Anchorlogo.svg" alt="Anchor Logo">
   </a>
-  <script src="https://kit.fontawesome.com/f2969daba5.js" crossorigin="anonymous"></script>
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  rel="stylesheet"
+/>
 </head>
 
 <body>
