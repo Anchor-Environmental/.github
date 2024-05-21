@@ -19,6 +19,16 @@
 </body>
 
 ---
+### About us ❔:
+    Anchor Environmental is a group of companies offering ecological, social 
+    and economic assessment, research, monitoring and natural capital 
+    accounting to inform environmental management and policy. Our work 
+    straddles marine, estuarine, freshwater and terrestrial realms; and it 
+    addresses decision-making, planning, policy and strategy regarding 
+    sustainable development and the conservation and management of 
+    biodiversity, resources and ecosystem services in the context of a range
+    of pressures including climate change. We are based in South Africa and
+    Namibia, with our head office in Cape Town.
 
 ### Description ✍️:
     This is the home for code that we write for projects. The code does
@@ -29,7 +39,8 @@
 ### Usage/Guide 🦮:
     1. Follow the links to the repective repo
     2. Click on the <> Code button and copy the https url
-    3. Open a terminal/shell at your local directory and paste the following command with your link:
+    3. Open a terminal/shell at your local directory and paste the following
+       command with your link:
 
 ```Shell
 git clone "paste link here"
