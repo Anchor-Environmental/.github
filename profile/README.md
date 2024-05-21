@@ -30,7 +30,6 @@
 ```Shell
 git clone "paste link here"
 ```
----
 
 ### Code Structure 🗺️:
 ```mermaid
