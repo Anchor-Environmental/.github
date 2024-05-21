@@ -41,19 +41,22 @@ git clone "paste link here"
       'secondaryColor': '#8495a6',
       'tertiaryColor': '#8495a6'
     }}}%%
-graph TD
-  A[repos]-->B[delft]
-  B[delft]-->C[file-processing]
-  B-->J[mercator-processing]
-  B-->E[delft-file-conversions]
-  B-->H[file-processing]
-  B-->D[projection-mapping]
-  A-->F[general]
-  F-->G[visualisations]
-  F-->D[projection-mapping]
-  F-->I[GUI-Base]
-  F-->K[species-dataabse-generator]
-  F-->L[CTD-processing]
+flowchart LR
+  repos:::layer0-->B[delft]:::layer1
+  B[delft]-->C[file-processing]:::layer2
+  B-->J[mercator-processing]:::layer2
+  B-->E[delft-file-conversions]:::layer2
+  B-->D[projection-mapping]:::layer2
+  repos-->F[general]:::layer1
+  F-->G[visualisations]:::layer2
+  F-->D[projection-mapping]:::layer2
+  F-->I[GUI-Base]:::layer2
+  F-->K[species-database-generator]:::layer2
+  F-->L[CTD-processing]:::layer2
+
+ classDef layer0 fill:#2b3846
+ classDef layer1 fill:#61778d
+ classDef layer2 fill:#8495a6
 ```
   ---
 
