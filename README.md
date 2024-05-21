@@ -12,47 +12,52 @@
     </b>
   </h1>
 </p> 
-  
----
-  
-> [!NOTE]
-> <h6><em>This is a work in progress and stuff still needs to be added! 🚧</em></h6>
----
-> [!IMPORTANT]
-> <h4>TODO: </h4>
-
- - [ ] Description https://github.com/Anchor-Environmental/.github/issues/1
- - [ ] Directions https://github.com/Anchor-Environmental/.github/issues/2
- - [ ] Source control explanation
- - [ ] Structure of Repos
-       
-<h3>Description:</h3>
-
-    This is the home for code that we write for projects. 
-    The code does not have to be oraganised according to a project. 
-    You can create a repo and store it for each use case. 
-    We can pull all the code together based on whats required for a project and it can be updated accordigly!
-  
-  ---
-
-```mermaid
-
-graph TD
-  A[repos]-->B[delft]
-  B[delft]-->C[file-processing]
-  B-->D[projection-mapping]
-  B-->E[delft-file-conversions]
-  A-->F[general]
-  F-->G[visualisations]
-  F-->D[projection-mapping]
-
-```
-  
-  <p align="center">
-    <img width="15%" src="https://github.com/Anchor-Environmental/.github/assets/149476021/9979c3ac-7c9d-4c6e-87a5-bf9a1d4799a6" alt="Anchor time pug dancing">
-  </p>
-
-  ---
-
 </body>
+
+---
+
+### Description ✍️:
+    This is the home for code that we write for projects. The code does
+    not have to be oraganised according to a project. You can create a
+    repo and store it for each use case. We can pull all the code together
+    based on whats required for a project and it can be updated accordigly!
+
+### Usage/Guide 🦮:
+    1. Follow the links to the repective repo
+    2. Click on the <> Code button and copy the https url
+    3. Open a terminal/shell at your local directory and paste the following command with your link:
+
+```Shell
+git clone "paste link here"
+```
+
+### Code Structure 🗺️:
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+      'primaryColor': '#61778d',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#8495a6',
+      'lineColor': '#2c2c2c',
+      'secondaryColor': '#8495a6',
+      'tertiaryColor': '#8495a6'
+    }}}%%
+flowchart LR
+  A(repos):::layer0-->B(delft):::layer1
+  B(delft)-->C(file-processing):::layer2
+  B-->J(mercator-processing):::layer2
+  B-->E(delft-file-conversions):::layer2
+  B-->D(projection-mapping):::layer2
+  A(repos)-->F(general):::layer1
+  F-->G(visualisations):::layer2
+  F-->D(projection-mapping):::layer2
+  F-->I(GUI-Base):::layer2
+  F-->K(species-database-generator):::layer2
+  F-->L(CTD-processing):::layer2
+
+ classDef layer0 fill:#2b3846
+ classDef layer1 fill:#61778d
+ classDef layer2 fill:#8495a6
+```
+  ---
+
 

@@ -2,6 +2,7 @@
   <a href="https://anchorenvironmental.co.za/">
     <img width="25%" src="./Anchorlogo.svg" alt="Anchor Logo">
   </a>
+  <script src="https://kit.fontawesome.com/f2969daba5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,17 +43,17 @@ git clone "paste link here"
       'tertiaryColor': '#8495a6'
     }}}%%
 flowchart LR
-  repos:::layer0-->B[delft]:::layer1
-  B[delft]-->C[file-processing]:::layer2
-  B-->J[mercator-processing]:::layer2
-  B-->E[delft-file-conversions]:::layer2
-  B-->D[projection-mapping]:::layer2
-  repos-->F[general]:::layer1
-  F-->G[visualisations]:::layer2
-  F-->D[projection-mapping]:::layer2
-  F-->I[GUI-Base]:::layer2
-  F-->K[species-database-generator]:::layer2
-  F-->L[CTD-processing]:::layer2
+  A(repos fa:):::layer0-->B(delft):::layer1
+  B(delft)-->C(file-processing):::layer2
+  B-->J(mercator-processing):::layer2
+  B-->E(delft-file-conversions):::layer2
+  B-->D(projection-mapping):::layer2
+  A(repos)-->F(general):::layer1
+  F-->G(visualisations):::layer2
+  F-->D(projection-mapping):::layer2
+  F-->I(GUI-Base):::layer2
+  F-->K(species-database-generator):::layer2
+  F-->L(CTD-processing):::layer2
 
  classDef layer0 fill:#2b3846
  classDef layer1 fill:#61778d
