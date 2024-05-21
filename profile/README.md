@@ -33,7 +33,7 @@ git clone "paste link here"
 
 ### Code Structure 🗺️:
 ```mermaid
-
+%%{init: {'theme':'forest'}}%%
 graph TD
   A[repos]-->B[delft]
   B[delft]-->C[file-processing]
