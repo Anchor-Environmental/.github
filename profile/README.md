@@ -33,7 +33,14 @@ git clone "paste link here"
 
 ### Code Structure 🗺️:
 ```mermaid
-%%{init: {'theme':'forest'}}%%
+%%{init: {'theme':'base', 'themeVariables': {
+      'primaryColor': '#61778d',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#8495a6',
+      'lineColor': '#2c2c2c',
+      'secondaryColor': '#8495a6',
+      'tertiaryColor': '#8495a6'
+    }}}%%
 graph TD
   A[repos]-->B[delft]
   B[delft]-->C[file-processing]
