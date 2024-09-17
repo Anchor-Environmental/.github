@@ -73,6 +73,20 @@ flowchart LR
  classDef layer1 fill:#61778d
  classDef layer2 fill:#8495a6
 ```
+
+### Useful git commands 👨🏾‍💻:
+
+```Shell
+git --help                                          # list all commands
+git clone "paste link here"                         # copy git repository from github to local machine
+git init                                            # initialise empty git repository in current working directory
+git add "path to file"                              # stage tracked changes use . as the path for all files
+git log                                             # show all commits
+git branch "name"                                   # create new branch of current branch
+git commit -m "commit message"                      # commit all staged changes
+git push --set-upstream "repo url" "branch name"    # push current branch to remote branch at soecified url
+git checkout "item"                                 # check out specified commit or branch
+```
   ---
 
 
