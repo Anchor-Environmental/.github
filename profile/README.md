@@ -58,7 +58,7 @@ git clone "paste link here"
     }}}%%
 flowchart LR
   A(repos 📃):::layer0-->B(Project specific):::layer1
-  B(Project specific)-->C(file-processing):::layer2
+  B-->C(file-processing):::layer2
   B-->J(mercator-processing):::layer2
   B-->E(delft-file-conversions):::layer2
   B-->D(projection-mapping):::layer2
