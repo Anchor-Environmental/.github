@@ -58,16 +58,20 @@ git clone "paste link here"
     }}}%%
 flowchart LR
   A(repos 📃):::layer0-->B(Project specific):::layer1
-  B-->C(file-processing):::layer2
-  B-->J(mercator-processing):::layer2
-  B-->E(delft-file-conversions):::layer2
-  B-->D(projection-mapping):::layer2
+  B-->C(2073_file_processing):::layer2
+  B-->J(2073_mercator_processing):::layer2
+  B-->E(2073_delft_file_conversions):::layer2
+  B-->M(2026_Windfarms):::layer2
+  B-->O(SkiMonkey):::layer2
+  B-->D(2073_projection_mapping):::layer2
   A(repos 📃)-->F(general):::layer1
   F-->G(visualisations):::layer2
-  F-->D(projection-mapping):::layer2
-  F-->I(GUI-Base):::layer2
-  F-->K(species-database-generator):::layer2
-  F-->L(CTD-processing):::layer2
+  F-->D(2073_projection_mapping):::layer2
+  F-->I(GUI_Base):::layer2
+  F-->K(species_database_generator):::layer2
+  F-->L(CTD_processing):::layer2
+  F-->N(testR):::layer2
+  F-->P(Docking):::layer2
 
  classDef layer0 fill:#2b3846
  classDef layer1 fill:#61778d
