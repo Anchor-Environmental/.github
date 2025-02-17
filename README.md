@@ -31,10 +31,10 @@
     Namibia, with our head office in Cape Town.
 
 ### Description ✍️:
-    This is the home for code that we write for projects. The code does
-    not have to be oraganised according to a project. You can create a
-    repo and store it for each use case. We can pull all the code together
-    based on whats required for a project and it can be updated accordigly!
+    This is the home for code that we write for projects. The Repos are 
+    organised according to a specific task it accomplishes. We can pull 
+    all the code together based on whats required for a project and it 
+    can be updated accordingly!
 
 ### Usage/Guide 🦮:
     1. Follow the links to the repective repo
